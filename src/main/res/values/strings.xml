@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ToManage</string>
+    <string name="ip">IP</string>
+    <string name="Port">port</string>
+    <string name="content">content</string>
+    <string name="connect">connect</string>
+    <string name="send">send</string>
+    <string name="wait">等待连接…</string>
+    <string name="demandcode">指令模式</string>
+    <string name="filecode">文件模式</string>
+    <string name="inf">点击查看此软件的详细信息。</string>
+    <string name="newversion">要查看是否有更新的版本，可以点击此处。\n\n\n</string>
+</resources>

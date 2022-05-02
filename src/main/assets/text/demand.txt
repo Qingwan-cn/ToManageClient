@@ -1,0 +1,18 @@
+”ToManage“软件会保存IP、端口号等配置信息到本地,并在下一次启动应用时自动填充。
+常见的可用端口号:8888.10001.12345.12350
+基础内置命令:
+1.关机
+2.关闭希沃白板（包括希沃白板5和希沃轻白板）
+3.关闭希沃视频展台
+4.关闭电影和电视
+5.关闭照片
+6.关闭Microsoft Excel
+7.关闭Microsoft Word
+8.关闭Microsoft PowerPoint
+"explorer" 打开文件资源管理器
+进阶命令:
+taskkill /help
+shutdown /help
+*指令模式使用Runtime实现，非Windows命令提示符环境。
+*打开exe应用程序同样使用文件模式。
+
