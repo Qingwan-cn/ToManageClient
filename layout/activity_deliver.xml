@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@color/white"
+    android:padding="30dp">
+
+    <TextView
+        android:id="@+id/deliver_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/deliver_title"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/deliver_text_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/deliver_text_1"
+        android:layout_below="@id/deliver_title"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/deliver_text_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/deliver_text_2"
+        android:layout_below="@id/deliver_text_1"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/deliver_text_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/deliver_text_2"
+        android:layout_marginTop="20dp"
+        android:text="@string/deliver_text_3"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:id="@+id/deliver_image"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_below="@id/deliver_text_3" />
+
+    <Button
+        android:id="@+id/deliver_btn_1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_above="@id/deliver_btn_2"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/btn_selector"
+        android:text="@string/choose" />
+
+    <Button
+        android:id="@+id/deliver_btn_2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/btn_selector"
+        android:layout_alignParentBottom="true"
+        android:textAllCaps="false"
+        android:text="@string/send"/>
+</RelativeLayout>
